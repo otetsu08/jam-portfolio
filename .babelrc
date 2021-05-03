@@ -1,0 +1,7 @@
+{
+    //babelのエラーメッセージがうっとおしいのでサイトみて自作でファイルごと新規作成した。
+    //参考サイト：https://cloud6.net/so/javascript/3047376
+    "plugins": [
+        ["@babel/plugin-proposal-private-methods", { "loose": true }]
+    ]
+}
